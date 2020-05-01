@@ -32,6 +32,9 @@ li {
   color: #878787;
   font-size: 15px;
   font-weight: 200;
+}
+
+li:first-letter {
   text-transform: capitalize;
 }
 
