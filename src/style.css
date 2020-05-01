@@ -32,6 +32,7 @@ li {
   color: #878787;
   font-size: 15px;
   font-weight: 200;
+  text-transform: capitalize;
 }
 
 .weather-temperature img {
