@@ -3,9 +3,12 @@ body {
     "SF Pro Icons", " Pro W3", "lucida grande", " ", Arial, sans-serif;
 }
 
-.weather-app {
-  max-width: 600px;
+.weather-app-wrapper-currently {
+  max-width: 500px;
   margin: 40px auto;
+}
+
+.weather-app {
   padding: 20px;
   border: 1px solid #ff9090;
   border-radius: 5px;
@@ -29,4 +32,23 @@ li {
   color: #878787;
   font-size: 15px;
   font-weight: 200;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  width: 64px;
+  height: 64px;
+}
+
+.weather-temperature strong {
+  font-size: 40px;
+  font-weight: 150;
+  color: #ff9090;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 12px;
+  top: -19px;
+  color: #ff9090;
 }
