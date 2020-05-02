@@ -26,7 +26,7 @@ ul {
 }
 
 li,
-.weather-forcast-temperature {
+.weather-forecast-temperature {
   list-style: none;
   color: #878787;
   font-size: 15px;
@@ -44,7 +44,7 @@ li:first-letter {
 
 .weather-app-wrapper-search,
 .weather-app,
-.weather-app-forcast-wrapper {
+.weather-app-forecast-wrapper {
   margin-bottom: 10px;
   padding: 20px;
   border: 1px solid #ff9090;
@@ -92,11 +92,11 @@ a:hover {
   color: #ff9090;
 }
 
-.weather-app-forcast-wrapper {
+.weather-app-forecast-wrapper {
   margin: 0 auto;
 }
 
-.weather-app-forcast-wrapper img {
+.weather-app-forecast-wrapper img {
   width: 40px;
   height: 40px;
   display: block;
