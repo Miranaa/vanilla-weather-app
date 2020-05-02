@@ -17,6 +17,22 @@ body {
   box-shadow: -1px 0px 9px -2px rgba(119, 40, 135, 1);
 }
 
+.weather-temperature .active {
+  color: #ff9090;
+  cursor: default;
+  font-weight: bold;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
 .button-color {
   background-color: #ff9090;
   border-color: #ff9090;
