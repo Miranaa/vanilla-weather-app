@@ -37,6 +37,13 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.last-update-time {
+  font-size: 12px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 .weather-app-wrapper-currently {
   max-width: 500px;
   margin: 40px auto;
